@@ -34,11 +34,10 @@ int main()
     int num;
     int choice;
     node* p;        // First finder pointer 
-    node* q;        // Before-null value pointer 
     bool success_flag;
     
-	node* head = nullptr;
-	node* create = nullptr;
+    node* head = nullptr;
+    node* create = nullptr;
 
     printMenu();
     cin >> choice;
@@ -107,7 +106,6 @@ int main()
 
             case 3:
                 int deleteValue;
-                node* toBeDeleted;
                 success_flag = false;
 
                 cout << "\nEnter an integer to be deleted from linked list: ";
